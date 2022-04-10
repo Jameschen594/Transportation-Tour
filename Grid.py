@@ -237,7 +237,7 @@ class Grid():
             self.drawGrid()
             self.handleDrivers()
                 
-            #screen.blit(py_image,rect)
+            screen.blit(py_image,rect)
             #self.createGrid()
             pygame.draw.rect(screen,"Blue",rect,2)
 
